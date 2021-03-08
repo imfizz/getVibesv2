@@ -1,0 +1,324 @@
+@media only screen and (min-width: 0px){
+	body {
+		overflow-x: hidden;
+	}
+
+	h3 {
+		font-size: 40px !important;
+		font-weight: var(--bold) !important;
+		margin-bottom: 32px !important;
+	}
+
+	h6 {
+		font-size: 20px !important;
+		color: var(--secondary-color) !important;
+	}
+	.makeItFlex {
+		display: flex !important;
+		flex-direction: column !important;
+		margin-top: 20px !important;
+	}
+
+	.navContainer {
+		order: 1 !important;
+	}
+
+	.brand-logo {
+		font-size: 2rem !important;
+		font-weight: var(--semibold) !important;
+	}
+
+	.button-right-container {
+		width: 86px;
+	}
+
+	.get-in-touch {
+		display: none !important;
+	}
+
+	.menu {
+		font-size: 35px !important;
+	}
+
+	.space-first-section {
+		order: 2;
+		height: 70px;
+	}
+
+	.first-section-svg {
+		order: 3 !important;
+	}
+
+	.first-section-svg object {
+		width: 100%;
+	}
+
+	.first-section-header {
+		order: 4 !important;
+		transform: translateY(-67px);
+	}
+
+	.first-section-header p {
+		color: var(--focal);
+		font-weight: var(--semibold);
+	}
+
+	.first-section-header h3 {
+		width: 370px;
+	}
+
+	.first-section-header h6 {
+		width: 372px;
+		margin-bottom: 52px;
+	}
+
+	.first-section-header .get-started {
+		width: 100% !important;
+		height: 50px !important;
+		line-height: 50px;
+	}
+
+	.second-section-header {
+		order: 5 !important;
+		z-index: 3;
+	}
+
+	.second-section-header h6 {
+		width: 280px;
+	}
+
+	.second-section-card {
+		order: 6 !important;
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: flex-end !important;
+		transform: translateX(47px) translateY(-97px);
+	}
+
+	.darkbox {
+		height: 80px;
+		width: 150px;
+		background-image: linear-gradient(rgba(32,32,49,0.26), rgba(32,32,49,0.67));
+		transform: translateY(-30px);
+	}
+
+	.mycard {
+		height: 301px;
+		margin-left: 10px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+
+	.mycard h5 {
+		font-size: 18px !important;
+		font-weight: var(--semibold) !important;
+		color: #A8A8A8;
+	}
+
+	.mycard p {
+		margin-bottom: 15px;
+		color: #676767;
+	}
+
+	.mycard a {
+		width: 40%;
+		height: 30px;
+		line-height: 30px;
+		background-image: linear-gradient(to right, rgb(183, 13, 13), rgb(39, 37, 152)) !important;
+		color: #9A9A9A;
+	}
+
+	.it-was-all-a-dream {
+		background-image: linear-gradient(rgba(32,32,49,0.31), rgba(32,32,49,1)), url("3.webp");	
+		width: 441px;
+		padding: 0 15px 30px 20px;
+	}
+
+	.sophomore {
+		background-image: linear-gradient(rgba(32,32,49,0.31), rgba(32,32,49,1)), url("1.webp");
+		width: 321px;
+		padding: 0 0 30px 20px;
+	}
+
+	.sophomore a {
+		width: 55%;
+	}
+
+	.third-section-svg {
+		order: 7 !important;
+		background: #161727;
+		height: 660px;
+		width: calc(100% + 40px);
+		transform: translateX(-20px);
+	}
+
+	.third-section-svg object {
+		transform: translateY(-40px);
+		width: 100%;
+	}
+
+	.third-section-header {
+		order: 8 !important;
+		transform: translateY(-393px);
+	}
+
+	.third-section-header h3 {
+		width: 300px;
+	}
+
+	.third-section-header h6 {
+		width: 349px;
+	}
+
+	.fourth-section-picture {
+		order: 9 !important;
+		height: 348px;
+		width: calc(100% + 40px) !important;
+		background-image: url(mockup.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		transform: translateX(-20px) translateY(-300px);
+	}
+
+	.fourth-section-header {
+		order: 10 !important;
+		transform: translateY(-428px);
+	}
+
+	.fourth-section-header h3 {
+		width: 376px;
+	}
+
+	.fourth-section-header h6 {
+		width: 347px;
+		margin-bottom: 58px;
+	}
+
+	.fourth-section-header a {
+		width: 100%;
+		height: 50px !important;
+		line-height: 50px;
+	}
+
+	.fifth-section-sayings {
+		order: 11 !important;
+		width: calc(100% + 40px) !important;
+		background: #161727;
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center !important;
+		padding: 40px 20px !important;
+		transform: translateX(-20px) translateY(-320px);
+	}
+
+	.profile:before {
+		content: "";
+		position: absolute;
+		top: -5px; left: -5px;
+		height: 60px;
+		width: 60px;
+		border-radius: 50%;
+		border: 1px solid #6a2b9d;
+	}
+
+	.sayings {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.sayings > .previous i, .next i {
+		color: #7C7C7C;
+	}
+
+	.sayings .content {
+		width: 237px;
+		text-align: center;
+		font-size: 17px;
+	}
+
+	.sixth-section-contact {
+		order: 12 !important;
+		width: calc(100% + 40px) !important;
+		padding: 40px !important;
+		display: flex !important;
+		flex-direction: column !important;
+		transform: translateX(-20px) translateY(-318px);
+		background-image: linear-gradient(to right, #271784c2, #8b0e14a3), url("contact.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: bottom left;
+	}
+
+	.sixth-section-contact h3 {
+		width: 298px;
+	}
+
+	.sixth-section-contact h6 {
+		width: 282px;
+		margin-bottom: 50px;
+		color: #E2E2E2 !important;
+	}
+
+	.sixth-section-contact p {
+		color: #D7D7D7;
+		font-size: 20px !important;
+		margin-bottom: 20px;
+	}
+
+	.email {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.email .email-textbox {
+		height: 40px;
+		border: none !important;
+		background: white !important;
+		color: black !important;
+		text-indent: 1em !important;
+	}
+
+	.email .send-email {
+		border-radius: 0 !important;
+		background-image: linear-gradient(to right, rgb(72, 43, 233), rgb(72, 43, 233)) !important;
+		box-shadow: none !important;
+		height: 42px;
+		line-height: 42px;
+	}
+
+	.seventh-section-footer {
+		order: 13 !important;
+		width: calc(100% - 40px) !important;
+		transform: translateX(-20px) translateY(-250px);
+	}
+
+	.bl2 {
+		color: white;
+	}
+
+	.seventh-section-footer ul {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.seventh-section-footer ul li {
+		font-weight: var(--semibold);
+	}
+
+	.seventh-section-footer a.waves-effect {
+		display: none;
+	}
+
+
+}

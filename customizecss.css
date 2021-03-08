@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+	color: #fff;
+	font-weight: var(--regular);
+}
+
+:root {
+	--secondary-color: #9898B2;
+	--main-color: #18192B;
+	--darker-color: #161727;
+	--red: #FF1414;
+	--blue: #3633CD;
+	--focal: #FF3450;
+	--regular: 400;
+	--semibold: 600;
+	--bold: 700;
+	--btn-shadow: 0 9px 22px #ac216180;
+}
+
+.btn {
+	background-image: linear-gradient(to right, var(--red), var(--blue));
+	font-weight: var(--bold) !important;
+	box-shadow: 0px 6px 14px #ac21617a !important;
+	border-radius: 30px !important;
+}
+
+html, body {
+	background-color: #18192B;
+}
+
+nav, .nav-wrapper {
+	background-color: var(--main-color);
+	box-shadow: none!important;
+}
+
+ul.left {
+	margin-left: 200px ​!important;
+}
+
+li a {
+	font-weight: var(--semibold) !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+.brand-logo {
+	font-weight: var(--semibold);
+}
+
+.active-link {
+	color: var(--focal) !important;
+	font-weight: var(--semibold)!important;
+}
+
+.button-right-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 230px;
+	height: 100%;
+}
+
+.dark-mode {
+	height: 40px;
+	width: 86px;
+	background: #2A2A42;
+	border-radius: 20px;
+	line-height: 39px;
+}
+
+.dark-mode a {
+	font-weight: var(--bold);
+	font-size: 16px;
+}
+
+.dark-mode a i {
+	background: #4D4D69;
+	height: 26px !important;
+	width: 26px;
+	line-height: 26px !important;
+	border-radius: 50%;
+	margin-left: 9px;
+	margin-right: 8px;
+	font-size: 14px;
+}
+
+.mybtn {
+	background-image: linear-gradient(to right, var(--red), var(--blue));
+	border-radius: 20px !important;
+	box-shadow: var(--btn-shadow) !important;
+	font-weight: var(--bold);
+	text-transform: capitalize !important;
+}
+
+#mobile-demo {
+	width: 234px;
+	background: #202134;
+	padding-top: 65px;
+}
+
+#mobile-demo li a {
+	color: white;
+}
+
+.space {
+	height: 150px;
+}
+
+.profile {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #24263e;
+	position: relative;
+	margin-bottom: 30px;
+	background-image: url("profile.png");
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+ul li a {
+
+}

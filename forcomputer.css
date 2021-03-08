@@ -1,0 +1,226 @@
+@media only screen and (min-width: 1300px) {
+	.third-section-svg object {
+		transform: translateX(29px) translateY(-47px);
+		width: 65% !important;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+
+	h3 {
+		font-size: 3.5rem !important;
+	}
+
+	h6 {
+		font-size: 1.4rem !important;
+	}
+
+	ul.left {
+		margin-left: 200px !important;
+	}
+
+	.get-in-touch {
+		display: block !important;
+		font-size: 14px !important;
+		width: 160px;
+	}
+
+	.dark-mode a {
+		font-size: 14px !important;
+	}
+
+
+	.brand-logo {
+		font-size: 2.1rem !important;
+	}
+
+	.first-section-header h3 {
+		width: 710px;
+	}
+
+	.first-section-header h6 {
+		width: 450px;
+	}
+
+	.first-section-svg {
+		transform: translateX(33px) translateY(45px) !important;
+	}
+
+	.first-section-svg object {
+		height: 500px;
+	}
+
+	.second-section-header {
+		margin-top: 187px;
+	}
+
+	.second-section-header h3 {
+		width: 635px;
+	}
+
+	.second-section-header h6 {
+		width: 376px;
+	}
+
+	.second-section-card {
+		transform: translateX(11px) translateY(-227px);
+		z-index: -1 !important;
+		width: 1089px !important
+	}
+
+	.darkbox {
+		height: 164px;
+		width: 130px;
+	}
+
+	.mycard {
+		height: 559px !important;
+		margin-left: 15px !important;
+	}
+
+	.mycard a {
+		width: 56%;
+		height: 46px;
+		line-height: 46px;
+		font-size: 20px;
+	}
+
+	.it-was-all-a-dream {
+		width: 363px !important;
+		padding: 0 35px 50px 40px;
+	}
+	
+	.it-was-all-a-dream h5 {
+		font-size: 37px !important;
+		width: 219px;
+	}
+
+	.it-was-all-a-dream p {
+		font-size: 20px;
+	}
+
+	.sophomore {
+		width: 363px !important;
+		padding: 0 35px 50px 40px;
+	}
+
+	.sophomore h5 {
+		font-size: 37px !important;
+		width: 219px;
+	}
+
+	.sophomore p {
+		width: 151px;
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+
+	.third-section-svg {
+		height: 662px;
+		width: calc(100% + 630px) !important;
+		transform: translateX(-314px);
+	}
+
+	.third-section-svg object {
+		transform: translateX(293px) translateY(-70px);
+		width: 45% !important;
+	}
+
+	.third-section-header {
+		transform: translateX(115px) translateY(-515px);
+	}
+
+	.third-section-header h3 {
+		width: 551px !important;
+	}
+
+	.third-section-header h6 {
+		width: 430px !important;
+	}
+
+	.fourth-section-picture {
+		height: 584px !important;
+		width: 100% !important;
+		background-image: url(mockup.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		transform: translateX(75px) translateY(0px) !important;
+	}
+
+	.fourth-section-header h3 {
+		width: 700px !important;
+	}
+
+	.fourth-section-header h6 {
+		width: 400px !important;
+	}
+
+	.fifth-section-sayings {
+		padding: 60px 120px !important;
+	}
+
+	.sayings .content {
+		font-size: 1.4rem !important;
+	}
+
+	.fa-arrow-left, .fa-arrow-right {
+		font-size: 30px;
+		font-weight: normal;
+	}
+
+
+	.sixth-section-contact {
+		width: calc(100% + 136px) !important;
+		padding: 80px 71px 118px 565px !important;
+		display: flex !important;
+		flex-direction: column !important;
+		transform: translateX(-67px) translateY(-318px);
+		background-image: linear-gradient(to right, #271784c2, #8b0e14a3), url("contact.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center left;
+		box-sizing: border-box;
+	}
+
+	.sixth-section-contact h3 {
+		width: 500px;
+	}
+
+	.sixth-section-contact h6 {
+		width: 500px;
+	}
+
+	.email {
+		width: 80%;
+		position: relative;
+	}
+
+	.email-textbox {
+		width: 79% !important;
+	}
+
+	.email .send-email  {
+		height: 45px;
+		line-height: 45px;
+	}
+
+	.seventh-section-footer {
+		width: auto;
+		transform: translateX(0) translateY(-250px) !important;
+	}
+
+	.seventh-section-footer ul {
+		width: 50%;
+		float: left !important;
+	}
+
+	.seventh-section-footer a {
+		float: right !important;
+	}
+
+	.seventh-section-footer ul li a.active-link {
+		padding-left: 0 !important;
+	}
+
+}
